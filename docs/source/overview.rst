@@ -1,4 +1,4 @@
-Optical Frequency Domain Reflectometry Senior Project 2022-2023
+Overview of OFDR
 ===================================
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
