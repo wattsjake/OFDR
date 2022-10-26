@@ -1,4 +1,4 @@
-Overview of OFDR
+Overview
 ===================================
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
@@ -17,5 +17,6 @@ Contents
 
 .. toctree::
 
+   overview
    usage
    api
