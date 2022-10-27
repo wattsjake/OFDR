@@ -1,12 +1,12 @@
-Usage
+About Us
 =====
 
-.. _installation:
+.. _History:
 
-Installation
+History
 ------------
 
-To use Lumache, first install it using pip:
+Jacob & Jared
 
 .. code-block:: console
 
