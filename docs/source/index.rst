@@ -28,7 +28,8 @@ Contents
 
 .. toctree::
 
-   Home <self>
-   Overview
-   About Us
+   home <self>
+   overview
+   license
+   help
 
