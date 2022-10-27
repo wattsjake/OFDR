@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'OFDR'
+copyright = '2021, Watts, Beh'
+author = 'Jacob Watts, Jared Beh'
 
 release = '0.1'
 version = '0.1.0'

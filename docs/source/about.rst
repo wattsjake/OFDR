@@ -1,5 +1,5 @@
 About Us
-=====
+========
 
 .. _History:
 
