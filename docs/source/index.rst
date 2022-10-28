@@ -31,5 +31,6 @@ Contents
 
    overview
    license
+   about
    help
 
