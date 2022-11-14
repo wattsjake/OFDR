@@ -42,7 +42,7 @@ Contents
    :maxdepth: 2
 
    overview
-   license
    about
+   license
    help
 

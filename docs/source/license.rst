@@ -1,7 +1,7 @@
 License
 ========
 
-Copyright <YEAR> <COPYRIGHT HOLDER>
+Copyright 2022 Beh, Watts
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files 
 (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
@@ -18,4 +18,4 @@ DEALINGS IN THE SOFTWARE.
 
 Contact
 =======
-Questions? Please contact jacobwatts@mail.weber.edu
+Questions? Please contact jacobwatts@mail.weber.edu or jaredbeh@mail.weber.ed
