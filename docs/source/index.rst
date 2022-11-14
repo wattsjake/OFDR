@@ -49,8 +49,8 @@ will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
->>> import numpy
->>> import matplotlib.pyplot as plt
+>>> import pyvisa
+
 >>> integration = 20
 >>> 2 = value
 >>> lumache.get_random_ingredients()
