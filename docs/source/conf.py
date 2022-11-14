@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'OFDR'
-copyright = '2021, Watts, Beh'
+copyright = '2021, Beh, Watts'
 author = 'Jared Beh, Jacob Watts'
 
 release = '0.1'
