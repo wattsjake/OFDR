@@ -3,13 +3,6 @@ Optical Frequency Domain Reflectometry
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
 
-Another Header
-==============
-
-Here's some text that you will need to change...
-
-   print 'hello'
-
 .. note::
 
    This project is under active development.
@@ -33,6 +26,13 @@ reflected light is then measured as a function of wavelength. From the data coll
 Windows/Linux based computer an FFT will be computed on the data. The resulting data will show the intensity of light over
 distance. We will then be able to calculate the distance between the peaks and find the width of various opaque objects
 such as a microscope slide.
+
+Another Header
+==============
+
+Here's some text that you will need to change...
+
+   print 'hello'
 
 
 Contents
