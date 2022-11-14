@@ -49,6 +49,10 @@ will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
+
 For example:
 
 >>>import numpy as np
