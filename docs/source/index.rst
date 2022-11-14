@@ -50,6 +50,7 @@ will raise an exception.
 .. autoexception:: lumache.InvalidKindError
 
 >>> import lumache
+>>> 2 = value
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
