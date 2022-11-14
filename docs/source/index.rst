@@ -50,6 +50,8 @@ will raise an exception.
 .. autoexception:: lumache.InvalidKindError
 
 >>> import numpy
+>>> import matplotlib.pyplot as plt
+>>> integration = 20
 >>> 2 = value
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
