@@ -49,21 +49,12 @@ will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
->>> import lumache
+>>> import numpy
 >>> 2 = value
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
 For example:
-
->>>import numpy as np
->>>import pyvisa
->>>import time
->>>rm = pyvisa.ResourceManager()
->>>rm.list_resources()
->>>laser = rm.open_resource('GPIB0::20::INSTR')
->>>print("Equipment ID: ",laser.query('*IDN?'))
->>>print("status bit: ", laser.query('*STB?')) #return status bit
 
 
 Contents
