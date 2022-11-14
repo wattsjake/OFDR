@@ -35,19 +35,12 @@ It is commonly used in laboratories and manufacturing facilities to connect inst
 and logic analyzers to a computer for data acquisition and analysis. GPIB is also known as HP-IB, from its original
 developers, Hewlett-Packard.
 
-Creating recipes
+Communicating with GPIB devices
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
+To communicate with a GPIB device, you must first import the ``pyvisa`` module and create a ``ResourceManager`` object.
+This object will be used to open a connection to the GPIB device. You'll need to know the GPIB address for the equipment 
+you want to communicate with. The address can usually be found by navigating through the main menu of the device.
 
 For example:
 
