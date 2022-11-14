@@ -4,10 +4,10 @@
 
 project = 'OFDR'
 copyright = '2021, Watts, Beh'
-author = 'Jacob Watts, Jared Beh'
+author = 'Jared Beh, Jacob Watts'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.1'
 
 # -- General configuration
 

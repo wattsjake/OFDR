@@ -27,12 +27,33 @@ Windows/Linux based computer an FFT will be computed on the data. The resulting 
 distance. We will then be able to calculate the distance between the peaks and find the width of various opaque objects
 such as a microscope slide.
 
-Another Header
+General Purpose Interface Bus (GPIB)
 ==============
 
-Here's some text that you will need to change...
+The General Purpose Interface Bus (GPIB) is a standard for connecting electronic test and measurement equipment.
+It is commonly used in laboratories and manufacturing facilities to connect instruments such as oscilloscopes, multimeters,
+and logic analyzers to a computer for data acquisition and analysis. GPIB is also known as HP-IB, from its original
+developers, Hewlett-Packard.
 
-   print 'hello'
+Creating recipes
+----------------
+
+To retrieve a list of random ingredients,
+you can use the ``lumache.get_random_ingredients()`` function:
+
+.. autofunction:: lumache.get_random_ingredients
+
+The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
+or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
+will raise an exception.
+
+.. autoexception:: lumache.InvalidKindError
+
+For example:
+
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
 
 
 Contents
