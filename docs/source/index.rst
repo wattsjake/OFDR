@@ -49,15 +49,11 @@ will raise an exception.
 
 .. autoexception:: lumache.InvalidKindError
 
->>> import pyvisa
-
->>> integration = 20
->>> 2 = value
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
 For example:
 
+>>> import pyvisa
+>>> rm = pyvisa.ResourceManager()
+>>> rm.list_resources()
 
 Contents
 --------
