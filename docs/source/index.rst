@@ -58,33 +58,11 @@ For example:
 >>>import numpy as np
 >>>import pyvisa
 >>>import time
-
 >>>rm = pyvisa.ResourceManager()
 >>>rm.list_resources()
-
 >>>laser = rm.open_resource('GPIB0::20::INSTR')
 >>>print("Equipment ID: ",laser.query('*IDN?'))
 >>>print("status bit: ", laser.query('*STB?')) #return status bit
-
-
->>>#print(laser.write('syst:date 2022, 11, 11')) #set the date to the correct date
-
-
->>>print("date: ", laser.query('SYST:DATE?')) #return the date of the device
->>>#print(laser.query('syst:help:head?')) #return a list of querys
-
->>>print("something to do with disp:brig", laser.write('disp:brig 100')) #return a list of querys
-
->>>print("actual brightness level ", laser.query('disp:brig?')) #return a list of querys
-
->>>#change the brightness of the display every 3 seconds
->>>brightness = np.arange(0,100,2)
->>>#change the brightness of the display 
->>>for val in brightness:
->>>    #print(val)
->>>    laser.write('disp:brig %i' %val)
->>>    time.sleep(0.01)
->>>print("DONE")
 
 
 Contents
