@@ -51,9 +51,9 @@ For example:
 
 Here are some useful commands. 
 
-This is a paragraph that contains `a link`_.
+This is a link to a reference document for the `8164A Programming Guide`_.
 
-.. _a link: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
+.. _8164A Programming Guide: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
 
 
 
