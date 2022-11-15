@@ -49,6 +49,14 @@ For example:
 >>> laser = rm.open_resource('GPIB0::20::INSTR')
 >>> print("Equipment ID: ",laser.query('*IDN?'))
 
+Here are some useful commands. 
+
+This is a paragraph that contains `a link`_.
+
+.. _a link: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
+
+
+
 Optical Spectrum Analyzer (OSA)
 ===============================
 

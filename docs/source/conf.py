@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'OFDR'
-copyright = '2021, Beh, Watts'
+copyright = '2022, Beh, Watts'
 author = 'Jared Beh, Jacob Watts'
 
 release = '0.1'
-version = '0.1.1'
+version = '0.1.2'
 
 # -- General configuration
 
