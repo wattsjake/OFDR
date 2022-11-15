@@ -7,7 +7,6 @@ Optical Frequency Domain Reflectometry
 
    This project is under active development.
 
-
 .. _overview:
 
 Overview
@@ -28,7 +27,7 @@ distance. We will then be able to calculate the distance between the peaks and f
 such as a microscope slide.
 
 General Purpose Interface Bus (GPIB)
-==============
+====================================
 
 The General Purpose Interface Bus (GPIB) is a standard for connecting electronic test and measurement equipment.
 It is commonly used in laboratories and manufacturing facilities to connect instruments such as oscilloscopes, multimeters,
@@ -50,7 +49,12 @@ For example:
 >>> laser = rm.open_resource('GPIB0::20::INSTR')
 >>> print("Equipment ID: ",laser.query('*IDN?'))
 
+Optical Spectrum Analyzer (OSA)
+===============================
 
+The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure the wavelength and intensity of light. We will
+be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
+IR laser radiation emitted from the tunable laser.
 
 Contents
 --------
