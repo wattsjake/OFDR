@@ -76,8 +76,8 @@ to easily navigate the various features and options, and perform various tasks w
 customizable, so that users can tailor it to their specific needs and preferences.
 
 .. image:: images/python_gui.jpg
-  :width: 250
-  :height: 250
+  :width: 450
+  :height: 450
   :alt: OFDR Drawing
 
 Contents
