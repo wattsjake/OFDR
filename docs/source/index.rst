@@ -63,7 +63,7 @@ be using an OSA to measure the intensity of light reflected from a DUT. The gath
 IR laser radiation emitted from the tunable laser.
 
 .. image:: images/ofdr_rev1.jpg
-  :width: 400
+  :width: 600
   :alt: OFDR Drawing
 
 Contents
