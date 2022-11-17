@@ -64,6 +64,7 @@ IR laser radiation emitted from the tunable laser.
 
 .. image:: images/ofdr_rev1.jpg
   :width: 600
+  :height: 300
   :alt: OFDR Drawing
 
 Contents
