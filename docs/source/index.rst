@@ -62,7 +62,7 @@ The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure t
 be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
 IR laser radiation emitted from the tunable laser.
 
-.. image:: images/ofdr_rev1.jpg
+.. image:: ..images/ofdr_rev1.jpg
   :width: 400
   :alt: OFDR Drawing
 
