@@ -55,14 +55,16 @@ This is a link to a reference document for the `8164A Programming Guide`_.
 
 .. _8164A Programming Guide: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
 
-
-
 Optical Spectrum Analyzer (OSA)
 ===============================
 
 The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure the wavelength and intensity of light. We will
 be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
 IR laser radiation emitted from the tunable laser.
+
+.. image:: images/ofdr_rev1.jpg
+  :width: 400
+  :alt: OFDR Drawing
 
 Contents
 --------

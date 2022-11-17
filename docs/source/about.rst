@@ -21,5 +21,5 @@ will help engineer a robust and powerful optics detector and analog to digital c
 History
 ------------
 
-Jacob & Jared 
+Jacob & Jared Weber State University 2022-2024
 
