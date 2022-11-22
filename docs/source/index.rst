@@ -76,8 +76,8 @@ to easily navigate the various features and options, and perform various tasks w
 customizable, so that users can tailor it to their specific needs and preferences.
 
 .. image:: images/python_gui.jpg
-  :width: 600
-  :height: 600
+  :width: 400
+  :height: 400
   :alt: OFDR Drawing
 
 Analog to Digital Converter (ADC)
