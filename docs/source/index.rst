@@ -75,7 +75,7 @@ and data sets. The interface will be intuitive and user-friendly, with a focus o
 to easily navigate the various features and options, and perform various tasks with ease. The interface will also be highly
 customizable, so that users can tailor it to their specific needs and preferences.
 
-.. image:: images/python_gui.jpg
+.. image:: images/OFDR.svg
   :width: 400
   :height: 400
   :alt: OFDR Drawing
@@ -92,7 +92,7 @@ used to compute the FFT.
 
 This is a link to a reference document for the `ADC-4U12 Analog to Digital Converter (12 bit)`_.
 
-.. _ADC-4U12 Analog to Digital Converter (12 bit): https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
+.. _ADC-4U12 Analog to Digital Converter (12 bit): https://wattsjake.github.io/pdf/reference/adc-4utm.pdf
 
 Contents
 --------
