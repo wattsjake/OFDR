@@ -102,8 +102,8 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   about
    gpib
+   about
    license
    help
    rst
