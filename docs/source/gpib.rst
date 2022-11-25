@@ -1,8 +1,6 @@
 General Purpose Interface Bus (GPIB)
 ==========
 
-.. _GPIB:
-
 .. note::
 
    This project is under active development.
