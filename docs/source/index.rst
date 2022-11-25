@@ -104,4 +104,5 @@ Contents
    about
    license
    help
+   gpib
 
