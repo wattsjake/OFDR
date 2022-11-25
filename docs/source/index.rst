@@ -106,5 +106,6 @@ Contents
    gpib
    license
    help
+   rst
    
 
