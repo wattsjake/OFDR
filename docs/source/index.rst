@@ -94,7 +94,7 @@ This is a link to a reference document for the `ADC-4U12 Analog to Digital Conve
 
 .. _ADC-4U12 Analog to Digital Converter (12 bit): https://wattsjake.github.io/pdf/reference/adc-4utm.pdf
 
-Changed the list order...
+Changed the list order... thisi s anew things
 
 Contents
 --------
@@ -102,6 +102,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   index
    gpib
    about
    license
