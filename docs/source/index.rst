@@ -1,18 +1,18 @@
 Optical Frequency Domain Reflectometry
 ######################################
 
+.. note::
+
+   This project is under active development.
+
+.. _overview:
+
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
 Optical frequency domain reflectometry is a non-destructive testing method that uses light
 to measure the thickness of materials. It can be used to measure the thickness of everything
 from thin film coatings to thick concrete walls. OFDR is similar to other reflectometry techniques,
 but it uses a laser instead of a traditional light source. This allows for more accurate
 measurements, as well as the ability to measure thicker materials.
-
-.. note::
-
-   This project is under active development.
-
-.. _overview:
 
 Overview
 *********
@@ -38,9 +38,6 @@ that will need to be met. The block diagram is shown below.
   :width: 800
   :height: 300
   :alt: OFDR Block Diagram
-
-
-
 
 .. General Purpose Interface Bus (GPIB)
 .. ====================================
@@ -71,26 +68,12 @@ that will need to be met. The block diagram is shown below.
 
 .. .. _8164A Programming Guide: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
 
-Optical Spectrum Analyzer (OSA)
-===============================
+.. Optical Spectrum Analyzer (OSA)
+.. ===============================
 
-The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure the wavelength and intensity of light. We will
-be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
-IR laser radiation emitted from the tunable laser.
-
-Analog to Digital Converter (ADC)
-===============================
-
-An analog to digital converter is a device that converts continuous analog signals into discrete digital signals.
-A 12-bit analog to digital converter has a resolution of 4096, meaning it can take analog input values from 0 to 4095
-and convert them to digital values. A 115200 baud rate means that the converter can take up to 115200 samples per second.
-The converter converts the analog signal into a digital signal by measuring the amplitude of the signal at regular intervals and encoding it as a
-binary number. The analog to digital converter will be used to convert the analog signal from the optical reciever into a digital, which will be 
-used to compute the FFT.
-
-This is a link to a reference document for the `ADC-4U12 Analog to Digital Converter (12 bit)`_.
-
-.. _ADC-4U12 Analog to Digital Converter (12 bit): https://wattsjake.github.io/pdf/reference/adc-4utm.pdf
+.. The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure the wavelength and intensity of light. We will
+.. be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
+.. IR laser radiation emitted from the tunable laser.
 
 Changed the list order... thisi s anew things
 
@@ -102,6 +85,7 @@ Contents
 
    gpib
    gui
+   adc
    about
    license
    help
