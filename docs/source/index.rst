@@ -2,6 +2,11 @@ Optical Frequency Domain Reflectometry
 ######################################
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
+Optical frequency domain reflectometry is a non-destructive testing method that uses light
+to measure the thickness of materials. It can be used to measure the thickness of everything
+from thin film coatings to thick concrete walls. OFDR is similar to other reflectometry techniques,
+but it uses a laser instead of a traditional light source. This allows for more accurate
+measurements, as well as the ability to measure thicker materials.
 
 .. note::
 
@@ -26,13 +31,15 @@ Windows/Linux based computer an FFT will be computed on the data. The resulting 
 distance. We will then be able to calculate the distance between the peaks and find the width of various opaque objects
 such as a microscope slide.
 
-Block Diagram
--------------
+The whole project can be broken down into well defined tasks using a block diagram. Each component will have its own requirments
+that will need to be met. The block diagram is shown below.
 
 .. image:: images/OFDR.svg
   :width: 800
   :height: 300
-  :alt: OFDR Drawing
+  :alt: OFDR Block Diagram
+
+
 
 
 .. General Purpose Interface Bus (GPIB)
@@ -71,19 +78,6 @@ The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure t
 be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
 IR laser radiation emitted from the tunable laser.
 
-Python GUI
-===============================
-
-The python graphical user interface for scientific applications will allow users to access and use various scientific tools
-and data sets. The interface will be intuitive and user-friendly, with a focus on simplicity and efficiency. Users will be able
-to easily navigate the various features and options, and perform various tasks with ease. The interface will also be highly
-customizable, so that users can tailor it to their specific needs and preferences.
-
-.. .. image:: images/OFDR.svg
-..   :width: 400
-..   :height: 400
-..   :alt: OFDR Drawing
-
 Analog to Digital Converter (ADC)
 ===============================
 
@@ -107,6 +101,7 @@ Contents
    :maxdepth: 2
 
    gpib
+   gui
    about
    license
    help
