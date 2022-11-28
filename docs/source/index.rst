@@ -26,34 +26,43 @@ Windows/Linux based computer an FFT will be computed on the data. The resulting 
 distance. We will then be able to calculate the distance between the peaks and find the width of various opaque objects
 such as a microscope slide.
 
-General Purpose Interface Bus (GPIB)
-====================================
+Block Diagram
+-------------
 
-The General Purpose Interface Bus (GPIB) is a standard for connecting electronic test and measurement equipment.
-It is commonly used in laboratories and manufacturing facilities to connect instruments such as oscilloscopes, multimeters,
-and logic analyzers to a computer for data acquisition and analysis. GPIB is also known as HP-IB, from its original
-developers, Hewlett-Packard.
+.. image:: images/OFDR.svg
+  :width: 800
+  :height: 300
+  :alt: OFDR Drawing
 
-Communicating with GPIB devices
-----------------
 
-To communicate with a GPIB device, you must first import the ``pyvisa`` module and create a ``ResourceManager`` object.
-This object will be used to open a connection to the GPIB device. You'll need to know the GPIB address for the equipment 
-you want to communicate with. The address can usually be found by navigating through the main menu of the device.
+.. General Purpose Interface Bus (GPIB)
+.. ====================================
 
-For example:
+.. The General Purpose Interface Bus (GPIB) is a standard for connecting electronic test and measurement equipment.
+.. It is commonly used in laboratories and manufacturing facilities to connect instruments such as oscilloscopes, multimeters,
+.. and logic analyzers to a computer for data acquisition and analysis. GPIB is also known as HP-IB, from its original
+.. developers, Hewlett-Packard.
 
->>> import pyvisa
->>> rm = pyvisa.ResourceManager()
->>> rm.list_resources()
->>> laser = rm.open_resource('GPIB0::20::INSTR')
->>> print("Equipment ID: ",laser.query('*IDN?'))
+.. Communicating with GPIB devices
+.. ----------------
 
-Here are some useful commands. 
+.. To communicate with a GPIB device, you must first import the ``pyvisa`` module and create a ``ResourceManager`` object.
+.. This object will be used to open a connection to the GPIB device. You'll need to know the GPIB address for the equipment 
+.. you want to communicate with. The address can usually be found by navigating through the main menu of the device.
 
-This is a link to a reference document for the `8164A Programming Guide`_.
+.. For example:
 
-.. _8164A Programming Guide: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
+.. >>> import pyvisa
+.. >>> rm = pyvisa.ResourceManager()
+.. >>> rm.list_resources()
+.. >>> laser = rm.open_resource('GPIB0::20::INSTR')
+.. >>> print("Equipment ID: ",laser.query('*IDN?'))
+
+.. Here are some useful commands. 
+
+.. This is a link to a reference document for the `8164A Programming Guide`_.
+
+.. .. _8164A Programming Guide: https://wattsjake.github.io/pdf/reference/8164A_Programming%20Guide.pdf
 
 Optical Spectrum Analyzer (OSA)
 ===============================
@@ -61,11 +70,6 @@ Optical Spectrum Analyzer (OSA)
 The Optical Spectrum Analyzer (OSA) is a scientific instrument used to measure the wavelength and intensity of light. We will
 be using an OSA to measure the intensity of light reflected from a DUT. The gathered data will help use to characterize the 
 IR laser radiation emitted from the tunable laser.
-
-.. image:: images/OFDR.svg
-  :width: 800
-  :height: 300
-  :alt: OFDR Drawing
 
 Python GUI
 ===============================
@@ -106,6 +110,5 @@ Contents
    about
    license
    help
-   rst
    
 
