@@ -1,5 +1,5 @@
 Optical Frequency Domain Reflectometry
-===================================
+######################################
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of sensing.
 
@@ -10,7 +10,7 @@ Optical Frequency Domain Reflectometry
 .. _overview:
 
 Overview
---------
+*********
 
 **Optical Frequency Domain Reflectometry** (OFDR) is used for different types of fiber optic sensing. 
 Optical Frequency Domain Reflectometry is an integration of scientific equipment to make possible the
