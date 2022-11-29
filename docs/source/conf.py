@@ -7,7 +7,7 @@ copyright = '2022, Beh, Watts'
 author = 'Jared Beh, Jacob Watts'
 
 release = '0.1'
-version = '0.1.3'
+version = '0.1.4'
 
 # -- General configuration
 

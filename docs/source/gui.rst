@@ -6,7 +6,7 @@ and data sets. The interface will be intuitive and user-friendly, with a focus o
 to easily navigate the various features and options, and perform various tasks with ease. The interface will also be highly
 customizable, so that users can tailor it to their specific needs and preferences.
 
-.. image:: images/OFDR.svg
+.. image:: images/gui_uti.PNG
   :width: 400
   :height: 400
   :alt: OFDR Drawing
