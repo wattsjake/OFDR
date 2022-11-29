@@ -48,6 +48,7 @@ Contents
    gpib
    gui
    adc
+   optical_receiver
    about
    license
    help
