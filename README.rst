@@ -1,8 +1,8 @@
-Template for the Read the Docs tutorial
+OFDR Read the Docs
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository is the source for the documentation of the senior project of Mr. Jared and Mr. Watts. The documentation is hosted
+on GitHub.
 
 Read the tutorial here:
 
