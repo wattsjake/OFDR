@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'OFDR'
+project = 'Optical Frequency Domain Reflectrometry'
 copyright = '2022, Beh, Watts'
 author = 'Jared Beh, Jacob Watts'
 
