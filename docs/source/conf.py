@@ -6,7 +6,7 @@ project = 'Optical Frequency Domain Reflectrometry'
 copyright = '2022, Beh, Watts'
 author = 'Jared Beh, Jacob Watts'
 
-release = '0.1'
+release = '0.2'
 version = '0.1.5'
 
 # -- General configuration
